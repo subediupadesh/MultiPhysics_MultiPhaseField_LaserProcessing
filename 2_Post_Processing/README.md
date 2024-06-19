@@ -1,0 +1,1 @@
+This directory contains python code to post process the simulation results to get the simulation videos and images.
