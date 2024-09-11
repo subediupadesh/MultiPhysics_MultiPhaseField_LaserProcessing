@@ -19,22 +19,22 @@ This repo contains MOOSE Framework input files and post processing python codes 
 <table>
   <tr>
     <td>
-      <strong>Temperature Distribution | Irradiance: 134.6 kW/cm²; Scan Speed: 5 nm/ms</strong><br>
-      <img src="3_Simulation_Video_Animations/gif/I134_V5/Temperature_Distribution.gif" alt="Temperature Distribution" width="400"/>
+      <strong>Video A1 | 150 kW/cm² @ 5 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I150_V5/gif/I150_V5_TEMPERATURE.gif" alt="Temperature Distribution" width="400"/>
     </td>
     <td>
-      <strong>Isotherm | Irradiance: 150 kW/cm²; Scan Speed: 4 nm/ms</strong><br>
-      <img src="3_Simulation_Video_Animations/gif/I150_V4/Isotherm.gif" alt="Isotherm" width="400"/>
+      <strong>Video A2 | 150 kW/cm² @ 4 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I150_V4/gif/I150_V4_TEMPERATURE.gif" alt="Temperature Distribution" width="400"/>
     </td>
   </tr>
   <tr>
     <td>
-      <strong>Phase Evolution | Irradiance: 150 kW/cm²; Scan Speed: 5 nm/ms</strong><br>
-      <img src="3_Simulation_Video_Animations/gif/I150_V5/Phase_Growth.gif" alt="Phase Evolution" width="400"/>
+      <strong>Video A3 | 134.6 kW/cm² @ 5 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I134_V5/gif/I134_V5_TEMPERATURE.gif" alt="Temperature Distribution" width="400"/>
     </td>
     <td>
-      <strong>Phase Area Growth | Irradiance: 134.6 kW/cm²; Scan Speed: 4 nm/ms</strong><br>
-      <img src="3_Simulation_Video_Animations/gif/I134_V4/Grain_Growth_(Area).gif" alt="Phase Area Growth" width="400"/>
+      <strong>Video A4 | 134.6 kW/cm² @ 4 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I134_V4/gif/I134_V4_TEMPERATURE.gif" alt="Temperature Distribution" width="400"/>
     </td>
   </tr>
 </table>
