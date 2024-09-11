@@ -63,3 +63,28 @@ This repo contains MOOSE Framework input files and post processing python codes 
     </td>
   </tr>
 </table>
+
+## Lead-Lag Dynamics
+
+<table>
+  <tr>
+    <td>
+      <strong>Video A5 | 150 kW/cm² @ 5 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I150_V5/gif/I150_V5_ISOTHERM.gif" alt="Lead-Lag Dynamics" width="400"/>
+    </td>
+    <td>
+      <strong>Video A6 | 150 kW/cm² @ 4 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I150_V4/gif/I150_V4_ISOTHERM.gif" alt="Lead-Lag Dynamics" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Video A7 | 134.6 kW/cm² @ 5 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I134_V5/gif/I134_V5_ISOTHERM.gif" alt="Lead-Lag Dynamics" width="400"/>
+    </td>
+    <td>
+      <strong>Video A8 | 134.6 kW/cm² @ 4 nm/ms</strong><br>
+      <img src="3_Simulation_Video_Animations/I134_V4/gif/I134_V4_ISOTHERM.gif" alt="Lead-Lag Dynamics" width="400"/>
+    </td>
+  </tr>
+</table>
