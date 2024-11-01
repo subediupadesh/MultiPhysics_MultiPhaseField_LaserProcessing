@@ -488,7 +488,7 @@ scan_speed = 5.0    # nm/ms
         constant_names =       'F_HCP   A_HCP       B_HCP       C_HCP   D_HCP   c_eq_HCP    T_eq_HCP    m_HCP   n_HCP'
         constant_expressions = '1000    655.124     9225e-6     0       -6.95   0.1015      1100        2       2'
         coupled_variables = 'c1 temp'
-        expression = 'F_HCP*(A_HCP*(c1-c_eq_HCP)^m_HCP + B_HCP*(temp-T_eq_HCP)^n_HCP + C_HCP*c1*temp + D_HCP)'
+        expression = 'F_HCP*(A_HCP*(c1-c_eq_HCP)^m_HCP + B_HCP*(temp-T_eq_HCP)^n_HCP + C_HCP*c1*temp + D_HCP)*energy_scale/(v_mol*length_scale^3)'
     []
 
     [Free_Energy_Phase_2] # Ti3Au rich (IMC) phase
@@ -498,7 +498,7 @@ scan_speed = 5.0    # nm/ms
         constant_names =        'F_IMC  A_IMC       B_IMC   C_IMC   D_IMC   c_eq_IMC    T_eq_IMC    m_IMC   n_IMC   '
         constant_expressions =  '1000   2328.75     2.2e-5  0       -12.6   0.261       859.11      2       2'
         coupled_variables = 'c2 temp'
-        expression = 'F_IMC*(A_IMC*(c2-c_eq_IMC)^m_IMC + B_IMC*(temp-T_eq_IMC)^n_IMC + C_IMC*c2*temp + D_IMC)'
+        expression = 'F_IMC*(A_IMC*(c2-c_eq_IMC)^m_IMC + B_IMC*(temp-T_eq_IMC)^n_IMC + C_IMC*c2*temp + D_IMC)*energy_scale/(v_mol*length_scale^3)'
     []
 
     [Free_Energy_Phase_3]  # Au rich LIQUID phase
@@ -508,7 +508,7 @@ scan_speed = 5.0    # nm/ms
         constant_names =        'F_LIQ  A_LIQ       B_LIQ       C_LIQ   D_LIQ   c_eq_LIQ    T_eq_LIQ    m_LIQ   n_LIQ'
         constant_expressions =  '11.599 30013.79    0.00122     -0.75   -21     0.5272      1939.34     4       2'
         coupled_variables = 'c3 temp'
-        expression = 'F_LIQ*(A_LIQ*(c3-c_eq_LIQ)^m_LIQ + B_LIQ*(temp-T_eq_LIQ)^n_LIQ + C_LIQ*c3*temp + D_LIQ)'
+        expression = 'F_LIQ*(A_LIQ*(c3-c_eq_LIQ)^m_LIQ + B_LIQ*(temp-T_eq_LIQ)^n_LIQ + C_LIQ*c3*temp + D_LIQ)*energy_scale/(v_mol*length_scale^3)'
     []
 
     [Free_Energy_Phase_4] # Au rich FCC phase
@@ -518,7 +518,7 @@ scan_speed = 5.0    # nm/ms
         constant_names =        'F_FCC  A_FCC       B_FCC       C_FCC   D_FCC   c_eq_FCC    T_eq_FCC    m_FCC   n_FCC'
         constant_expressions =  '19.858 208000.75   0.001463    -0.75   -5.8    0.627       593.26      6       2'
         coupled_variables = 'c4 temp'
-        expression = 'F_FCC*(A_FCC*(c4-c_eq_FCC)^m_FCC + B_FCC*(temp-T_eq_FCC)^n_FCC + C_FCC*c4*temp + D_FCC)'
+        expression = 'F_FCC*(A_FCC*(c4-c_eq_FCC)^m_FCC + B_FCC*(temp-T_eq_FCC)^n_FCC + C_FCC*c4*temp + D_FCC)*energy_scale/(v_mol*length_scale^3)'
     []
 
      #Switching Functions        ## Eq 10,11 of https://doi.org/10.1016/j.actamat.2010.10.038
