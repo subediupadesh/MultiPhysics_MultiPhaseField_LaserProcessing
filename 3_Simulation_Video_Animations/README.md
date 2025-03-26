@@ -1,0 +1,1 @@
+This directory contains simulation video animation after post processing.
