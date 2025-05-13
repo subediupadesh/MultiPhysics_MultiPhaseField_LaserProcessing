@@ -88,3 +88,7 @@ This repo contains MOOSE Framework input files and post processing python codes 
     </td>
   </tr>
 </table>
+
+
+# The documentation of the codes for these simulations videos is made available at:
+Subedi, U., Moelans, N., Tański, T., & Kunwar, A. (2025). A non-isothermal multi-phase field approach to model the meltpool and IMC grains interaction in Ti-Au material. Computational Materials Science, 255, 113875. https://doi.org/10.1016/j.commatsci.2025.113875
