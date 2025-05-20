@@ -90,5 +90,9 @@ This repo contains MOOSE Framework input files and post processing python codes 
 </table>
 
 
+# Interactive Streamlit WebApp to Visualize Laser Sources:
+[![Laser3D](https://img.shields.io/badge/StreamlitAPP-streamlit-red)](https://laser3d.streamlit.app/)
+
+
 # The documentation of these works is made available at:
 Subedi, U., Moelans, N., Tański, T., & Kunwar, A. (2025). A non-isothermal multi-phase field approach to model the meltpool and IMC grains interaction in Ti-Au material. Computational Materials Science, 255, 113875. https://doi.org/10.1016/j.commatsci.2025.113875
