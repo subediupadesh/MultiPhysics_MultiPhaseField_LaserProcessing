@@ -1292,18 +1292,26 @@ scan_speed = 5.0    # nm/ms
         v = 'eta1 eta2 eta3 eta4 eta5 eta6 eta7'
     []
 
+    # [sumCdothsquare]
+    #     type = SevenPhasesSumCdothsquare
+    #     variable = gr_c
+    #     var1=c
+    #     h1_name = h1
+    #     h2_name = h2
+    #     h3_name = h3
+    #     h4_name = h4
+    #     h5_name = h5
+    #     h6_name = h6
+    #     h7_name = h7
+    #   []
+
     [sumCdothsquare]
-        type = SevenPhasesSumCdothsquare
-        variable = gr_c
-        var1=c
-        h1_name = h1
-        h2_name = h2
-        h3_name = h3
-        h4_name = h4
-        h5_name = h5
-        h6_name = h6
-        h7_name = h7
-      []
+        type                = PhaseGlobalComposition
+        variable            = gr_c
+        global_composition  = c
+        total_etas          = 2
+        h_names             = 'h1 h2 h3 h4 h5 h6 h7'
+    []
 []
 
 [Executioner]
